@@ -59,6 +59,11 @@
                 "bundleName": "custom-theme"
               },
               {
+                "input": "src/themes/uespi/styles/theme.scss",
+                "inject": false,
+                "bundleName": "uespi-theme"
+              },
+              {
                 "input": "src/themes/dspace/styles/theme.scss",
                 "inject": false,
                 "bundleName": "dspace-theme"
