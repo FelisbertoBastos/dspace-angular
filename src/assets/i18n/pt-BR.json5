@@ -1,30 +1,24 @@
 {
   
   // "401.help": "You're not authorized to access this page. You can use the button below to get back to the home page.",
-  // TODO New key - Add a translation
-  "401.help": "You're not authorized to access this page. You can use the button below to get back to the home page.",
+  "401.help": "Você não está autorizado a acessar esta página. Você pode usar o botão abaixo para voltar para a página inicial.",
   
   // "401.link.home-page": "Take me to the home page",
-  // TODO New key - Add a translation
-  "401.link.home-page": "Take me to the home page",
+  "401.link.home-page": "Me leve para a página inicial",
   
   // "401.unauthorized": "unauthorized",
-  // TODO New key - Add a translation
-  "401.unauthorized": "unauthorized",
+  "401.unauthorized": "não autorizado",
   
   
   
   // "403.help": "You don't have permission to access this page. You can use the button below to get back to the home page.",
-  // TODO New key - Add a translation
-  "403.help": "You don't have permission to access this page. You can use the button below to get back to the home page.",
+  "403.help": "Você não tem permissão para acessar esta página. Você pode usar o botão abaixo para voltar para a página inicial.",
   
   // "403.link.home-page": "Take me to the home page",
-  // TODO New key - Add a translation
-  "403.link.home-page": "Take me to the home page",
+  "403.link.home-page": "Me leve para a página inicial",
   
   // "403.forbidden": "forbidden",
-  // TODO New key - Add a translation
-  "403.forbidden": "forbidden",
+  "403.forbidden": "Proibido",
   
   
   
@@ -1383,7 +1377,7 @@
   
   // "collection.listelement.badge": "Collection",
   // TODO New key - Add a translation
-  "collection.listelement.badge": "Collection",
+  "collection.listelement.badge": "Coleção",
   
   
   
@@ -1425,18 +1419,24 @@
   
   // "collection.source.update.notifications.error.title": "Server Error",
   "collection.source.update.notifications.error.title": "Erro no Servidor",
-  
-  
+
+
+  "repository.image.logo": "Repository logo",
+  "repository.title.prefix": "Repositório da UESPI :: ",
+  "repository.title.prefixDSpace": "Repositório da UESPI ::",
+
   
   // "communityList.tabTitle": "DSpace - Community List",
   // TODO New key - Add a translation
-  "communityList.tabTitle": "DSpace - Community List",
+  "communityList.tabTitle": "DSpace - Lista de Comunidades",
   
   // "communityList.title": "List of Communities",
   "communityList.title": "Lista de Comunidades",
   
   // "communityList.showMore": "Show More",
   "communityList.showMore": "Mostrar Mais",
+
+  "communityList.breadcrumbs": "Lista de Comunidades",
   
   
   
@@ -2236,7 +2236,6 @@
   "form.search": "Buscar",
   
   // "form.search-help": "Click here to look for an existing correspondence",
-  // TODO Source message changed - Revise the translation
   "form.search-help": "Clique aqui para procurar por uma correspondência existente",
   
   // "form.submit": "Submit",
@@ -2261,6 +2260,8 @@
   // "home.top-level-communities.help": "Select a community to browse its collections.",
   "home.top-level-communities.help": "Selecione uma comunidade para navegar por suas coleções",
   
+  // "home.search-form.placeholder": "Search the repository ...",
+  "home.search-form.placeholder": "Busque neste repositório ...",
   
   
   // "info.end-user-agreement.accept": "I have read and I agree to the End User Agreement",
@@ -4655,8 +4656,10 @@
   "search.title": "DSpace Angular :: Busca",
   
   // "search.breadcrumbs": "Search",
-  // TODO New key - Add a translation
-  "search.breadcrumbs": "Search",
+  "search.breadcrumbs": "Buscar",
+
+  // "search.search-form.placeholder": "Search the repository ...",
+  "search.search-form.placeholder": "Busque neste repositório ...",
   
   
   // "search.filters.applied.f.author": "Author",
@@ -4716,6 +4719,9 @@
   
   // "search.filters.filter.author.placeholder": "Author name",
   "search.filters.filter.author.placeholder": "Nome do autor",
+
+  // "search.filters.filter.author.label": "Search author name",
+  "search.filters.filter.author.label": "Busque nome de um autor",
   
   // "search.filters.filter.birthDate.head": "Birth Date",
   "search.filters.filter.birthDate.head": "Data de nascimento",
@@ -4752,9 +4758,15 @@
   
   // "search.filters.filter.dateIssued.max.placeholder": "Minimum Date",
   "search.filters.filter.dateIssued.max.placeholder": "Data Mínima",
+
+  // "search.filters.filter.dateIssued.max.label": "End",
+  "search.filters.filter.dateIssued.max.label": "Final",
   
   // "search.filters.filter.dateIssued.min.placeholder": "Maximum Date",
   "search.filters.filter.dateIssued.min.placeholder": "Data Máxima",
+
+  // "search.filters.filter.dateIssued.min.label": "Start",
+  "search.filters.filter.dateIssued.min.label": "Início",
   
   // "search.filters.filter.dateSubmitted.head": "Date submitted",
   "search.filters.filter.dateSubmitted.head": "Data de submissão",
@@ -4775,6 +4787,9 @@
   
   // "search.filters.filter.entityType.placeholder": "Item Type",
   "search.filters.filter.entityType.placeholder": "Tipo de Item",
+
+  // "search.filters.filter.entityType.label": "Search item type",
+  "search.filters.filter.entityType.label": "Busque tipo de item",
   
   // "search.filters.filter.has_content_in_original_bundle.head": "Has files",
   "search.filters.filter.has_content_in_original_bundle.head": "Tem arquivos",
@@ -4844,6 +4859,9 @@
   
   // "search.filters.filter.subject.placeholder": "Subject",
   "search.filters.filter.subject.placeholder": "Assunto",
+
+  // "search.filters.filter.subject.label": "Search subject",
+  "search.filters.filter.subject.label": "Busque assuntos",
   
   // "search.filters.filter.submitter.head": "Submitter",
   "search.filters.filter.submitter.head": "Submetedor",
@@ -4914,8 +4932,11 @@
   // "search.results.empty": "Your search returned no results.",
   "search.results.empty": "Sua pesquisa não retornou resultados.",
   
+
+  // "default.search.results.head": "Search Results",
+  "default.search.results.head": "Resultados da Busca",
   
-  
+
   // "search.sidebar.close": "Back to results",
   "search.sidebar.close": "Voltar para os resultados",
   
@@ -4963,11 +4984,25 @@
   
   // "sorting.dc.title.DESC": "Title Descending",
   "sorting.dc.title.DESC": "Título Descendente",
+
+  // "sorting.score.ASC": "Least Relevant",
+  "sorting.score.ASC": "Menos relevante",
   
   // "sorting.score.DESC": "Relevance",
   "sorting.score.DESC": "Relevância",
   
-  
+  // "sorting.dc.date.issued.ASC": "Date Issued Ascending",
+  "sorting.dc.date.issued.ASC": "Data de emissão crescente",
+
+  // "sorting.dc.date.issued.DESC": "Date Issued Descending",
+  "sorting.dc.date.issued.DESC": "Data de emissão decrescente",
+
+  // "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  "sorting.dc.date.accessioned.ASC": "Data de acesso crescente",
+
+  // "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  "sorting.dc.date.accessioned.DESC": "Data de acesso decrescente",
+
   
   // "statistics.title": "Statistics",
   // TODO New key - Add a translation
@@ -5805,8 +5840,11 @@
   
   // "submission.workflow.tasks.pool.show-detail": "Show detail",
   "submission.workflow.tasks.pool.show-detail": "Mostrar detalhes",
+
   
-  
+  // "thumbnail.default.placeholder": "No Thumbnail Available",
+  "thumbnail.default.placeholder": "Nenhuma miniatura disponível",
+
   
   // "title": "DSpace",
   "title": "DSpace",
