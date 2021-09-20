@@ -1050,6 +1050,12 @@
   
   // "browse.title": "Browsing {{ collection }} by {{ field }} {{ value }}",
   "browse.title": "Navegando {{ collection }} por {{ field }} {{ value }}",
+
+  // "browse.next.button": "Next",
+  "browse.next.button": "Próximo",
+
+  // "browse.previous.button": "Previous",
+  "browse.previous.button": "Anterior",
   
   
   // "chips.remove": "Remove chip",
