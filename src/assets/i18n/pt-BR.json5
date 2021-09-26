@@ -5744,11 +5744,9 @@
   "workflow-item.send-back.header": "Send workflow item back to submitter",
   
   // "workflow-item.send-back.button.cancel": "Cancel",
-  // TODO New key - Add a translation
   "workflow-item.send-back.button.cancel": "Cancelar",
   
   // "workflow-item.send-back.button.confirm": "Send back"
   // TODO New key - Add a translation
   "workflow-item.send-back.button.confirm": "Send back" 
-  
 }

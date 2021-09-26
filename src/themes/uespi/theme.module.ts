@@ -29,7 +29,7 @@ import { StoreModule } from '@ngrx/store';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { TranslateModule } from '@ngx-translate/core';
 import { HomeNewsComponent } from './app/home-page/home-news/home-news.component';
-import { HomePageComponent } from './app/home-page/home-page.component';
+// import { HomePageComponent } from './app/home-page/home-page.component';
 import { HomePageModule } from '../../app/home-page/home-page.module';
 import { RootComponent } from './app/root/root.component';
 import { AppModule } from '../../app/app.module';
@@ -81,7 +81,7 @@ import { BreadcrumbsComponent } from './app/breadcrumbs/breadcrumbs.component';
 import { HeaderNavbarWrapperComponent } from './app/header-nav-wrapper/header-navbar-wrapper.component';
 
 const DECLARATIONS = [
-  HomePageComponent,
+  // HomePageComponent,
   HomeNewsComponent,
   RootComponent,
   PublicationComponent,
